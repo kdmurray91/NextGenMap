@@ -200,6 +200,8 @@ Input:\n\
                                NGM will only pre-process the reference.\n\
  -p/--paired                   Input data is paired end.\n\
                                NOT required if -1/-2 are used. (default: off)\n\
+ --broken-pairs                Input data is in broken-paired end format.\n\
+                               MUST give --paired as well. (default: off)\n\
  -I/--min-insert-size          The min insert size for paired end alignments\n\
                                (default: 0)\n\
  -X/--max-insert-size          The max insert size for paired end alignments\n\
